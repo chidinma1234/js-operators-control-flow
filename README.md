@@ -61,8 +61,8 @@ Examples for javascript operators
    console.log(n + 1); // 3
 
   Example 2:  
-  const x = 2;  
-  console.log(x + 2); // 4
+   const x = 2;  
+   console.log(x + 2); // 4
 
 - **SUBTRACTION(-)**:  
    Example 1:  
@@ -101,8 +101,8 @@ Examples for javascript operators
    console.log(total % 2); //0
 
   Example 2:  
-  const bill = 12;  
-  console.log(bill % 5); //2
+   const bill = 12;  
+   console.log(bill % 5); //2
 
 - **EXPONENTIAL**(\*\*)  
   Example 1:  
@@ -131,202 +131,202 @@ Examples for javascript operators
   const num = 14;  
   console.log(num--); //13
 
-2. **Assignment operators**
+2. **ASSIGNMENT OPERATORS**
 
-- Assignment(=)
+- **ASSIGNMENT**(=)
   Example 1:  
   const myName = 'Chidinma';
   console.log(myName)
 
-Example 2:  
-const lastName = 'Ukazu';
-console.log(lastName)
+  Example 2:  
+  const lastName = 'Ukazu';
+  console.log(lastName)
 
-- Addition Assignment  
+- **ADDITION ASSIGNMENT**(+=)  
   Example 1:  
-   const z = 5  
-   console.log(z += 3); //8
+  const z = 5  
+  console.log(z += 3); //8
 
-Example 2:
-const num = 10
-console.log(num += 8); //18
+  Example 2:
+  const num = 10
+  console.log(num += 8); //18
 
-- Subtraction Assignment  
+- **SUBTRACTION ASSIGNMENT**(-=)  
   Example 1:  
   const myShirt = 20  
-   console.log(myShirt -= 3); //17
+  console.log(myShirt -= 3); //17
 
-Example 2:  
- const myTowel = 40  
- console.log(myTowel += 8); //32
+  Example 2:  
+  const myTowel = 40  
+  console.log(myTowel += 8); //32
 
-- Multiplication Assignment
+- **MULTIPLICATION ASSIGNMENT**(\*=)
   Example 1:  
   const myPhone = 20  
-   console.log(myPhone \*= 2); //40
+  console.log(myPhone \*= 2); //40
 
-Example 2:  
- const lastNum = 40  
- console.log(lastNum \*= 4); //160
+  Example 2:  
+  const lastNum = 40  
+  console.log(lastNum \*= 4); //160
 
-- Division Assignment  
+- **DIVISION ASSIGNMENT**(/=)  
   Example 1:  
   const myNum = 50  
   console.log(myNum /= 2); //25
 
-Example 2:  
- const a = 10  
- console.log(a /= 5); //2
+  Example 2:  
+  const a = 10  
+  console.log(a /= 5); //2
 
-3.  **Comparison operators**
+3. **COMPARISON OPERATORS**
 
-- Loose Equality (==)
+- **LOOSE EQUALITY** (==)
   Example 1:  
   const a = 1;  
   const b = '1';  
   console.log(a == b); //true
 
-Example 2:  
- const x = 2;  
- const y = 1;  
- console.log(x == y);//false
+  Example 2:  
+  const x = 2;  
+  const y = 1;  
+  console.log(x == y);//false
 
-- Strict Equality(===)  
+- **STRICT EQUALITY**(===)  
   Example 1:  
   const n= 5;  
   const b = '5';  
   console.log(n === b); //false
 
-Example 2:  
- const myName = 'Chidinma;  
-console.log(myName === 'Chidinma'); //true
+  Example 2:  
+  const myName = 'Chidinma;  
+  console.log(myName === 'Chidinma'); //true
 
-- Not Equal(!=)  
+- **NOT EQUAL**(!=)  
   Example 1:
   const var1 = 8;
   console.log(var1 != 4); //true
 
-Example 2:  
-const var2 = 20;  
-console.log(var2 != 20); //false
+  Example 2:  
+  const var2 = 20;  
+  console.log(var2 != 20); //false
 
-- Strict Not Equal(!==)  
+- **STRICT NOT EQUAL**(!==)  
   Example 1:
   const var1 = 10;
   console.log(var1 !== '10'); //true
 
-Example 2:
-const var2 = 15;
-console.log(var2 !== 15); //false
+  Example 2:
+  const var2 = 15;
+  console.log(var2 !== 15); //false
 
-- Greater than (>)
+- **GREATER THAN** (>)
   Example 1:  
   const var1 = 2;  
   console.log('12' > var1); //true
 
-Example 2:  
-const var2 = 5;  
-console.log(2 > var2); //false
+  Example 2:  
+  const var2 = 5;  
+  console.log(2 > var2); //false
 
-- Greater than or equal(>=)  
+- **GREATER THAN OR EQUAL**(>=)  
   Example 1:  
   const var1 = 2;
   const var2 = 5
   console.log(var2 >= var1); //true
 
-Example 2:  
-const var1 = 3;  
-console.log(4 >= var1); //true
+  Example 2:  
+  const var1 = 3;  
+  console.log(4 >= var1); //true
 
-- Less than(<)
+- **LESS THAN**(<)
   Example 1:  
   const var1 = 2;
   const var2 = 5;
   console.log(var2 < var1); //true
 
-Example 2:  
-const var1 = 2;
-console.log(var1 >='12'); //true
+  Example 2:  
+  const var1 = 2;
+  console.log(var1 >='12'); //true
 
-- Less than or equal  
+- **LESS THAN OR EQUAL**(<=)  
   Example 1:  
   const var1 = 3;
   const var2 = 4;
   console.log(var1 <= var2); //true
 
-Example 2:  
-const var1 = 2;
-console.log(var1 <= 5); //true
+  Example 2:  
+  const var1 = 2;
+  console.log(var1 <= 5); //true
 
-4. **Comparison operators**
+4. **COMPARISON OPERATORS**
 
-- Logical AND (&&)  
+- **LOGICAL AND** (&&)  
   Example 1:
   const myAge = 18;
   const hasDriverLiscence = true;
   console.log(myAge === 18 && hasDriverLiscence === true); //true
 
-Example 2:  
-const myAge = 26;  
-const hasDriverLiscence = true;
-console.log(myAge === 18 && hasDriverLiscence === true); //false
+  Example 2:  
+  const myAge = 26;  
+  const hasDriverLiscence = true;
+  console.log(myAge === 18 && hasDriverLiscence === true); //false
 
-- Logical OR(||)  
+- **LOGICAL OR**(||)  
   Example 1:  
   const myBirthYear = 1996;  
   const shoeSize = 40;
   console.log(myBirthYear === 1996 || shoeSize === 39); // true
 
-Example 2:
-const myBirthYear = 1996;  
-const shoeSize = 40;
-console.log(myBirthYear === 1995 || shoeSize === 39); // false
+  Example 2:
+  const myBirthYear = 1996;  
+  const shoeSize = 40;
+  console.log(myBirthYear === 1995 || shoeSize === 39); // false
 
-\*Logical Not (!)  
-Example 1:  
-const var1 = true
-console.log(!var1); // false
+- **LOGICAL NOT**(!)  
+  Example 1:  
+  const var1 = true
+  console.log(!var1); // false
 
-Example 2:  
-const var1 = false
-console.log(!var1); // true
+  Example 2:  
+  const var1 = false
+  console.log(!var1); // true
 
-5. **Bitwise operators**
+5. **BITWISE OPERATORS**
 
-- Bitwise AND (&)  
+- **BITWISE AND**(&)  
   Example 1:  
   console.log(15 & 9); //9
 
-Example 2:
-console.log(5 & 1); //1
+  Example 2:
+  console.log(5 & 1); //1
 
-- Bitwise OR (|)  
+- **Bitwise OR**(|)  
   Example 1:  
   console.log(15 | 9); //15
 
-Example 2:  
-console.log(5 | 1); //5
+  Example 2:  
+  console.log(5 | 1); //5
 
-- Bitwise XOR(^)  
+- **BITWISE XOR**(^)  
   Example 1  
   console.log(15 ^ 9); //6
 
-Example 2  
-console.log(5 ^ 1); //4
+  Example 2  
+  console.log(5 ^ 1); //4
 
-- Bitwise NOT(~)  
+- **BITWISE NOT**(~)  
   Example 1:  
   console.log(~5); //10
 
-Example 2:  
-console.log(~15); //-16
+  Example 2:  
+  console.log(~15); //-16
 
 ## Question 4
 
 The result when the program below is executed is:  
-for(let i = 1; i < 20; i += 7){  
+ for(let i = 1; i < 20; i += 7){  
  console.log(i);  
  }  
-// i = 1;  
-// i = 8;  
-// i = 15;
+ // i = 1;  
+ // i = 8;  
+ // i = 15;
