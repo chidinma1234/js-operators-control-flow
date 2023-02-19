@@ -53,83 +53,83 @@ The symbols for javascript operators are:
 
 Examples for javascript operators
 
-1. **Arithmetic operators**:
+1. **ARITHMETIC OPERATORS**:
 
-- Addition(+):  
-  Example 1:  
+- **ADDITION**(+):  
+   Example 1:  
    const n = 2;  
-  console.log(n + 1); // 3
+   console.log(n + 1); // 3
 
-Example 2:  
-const x = 2;  
-console.log(x + 2); // 4
+  Example 2:  
+  const x = 2;  
+  console.log(x + 2); // 4
 
-- Subtraction(-):  
-  Example 1:  
+- **SUBTRACTION(-)**:  
+   Example 1:  
    const myBirthYear = 1996  
-  console.log(2023 - myBirthYear); //27
+   console.log(2023 - myBirthYear); //27
 
-Example 2:  
-const myAge = 27;  
-const presentYear =2023;  
-const birthYear = presentYear - myAge
-console.log(birthYear); //1996
+  Example 2:  
+   const myAge = 27;  
+   const presentYear =2023;  
+   const birthYear = presentYear - myAge
+  console.log(birthYear); //1996
 
-- Multiplication(_)
+- **MULTIPLICATION**(\*)
   Example 1:  
   const a = 5;  
   const b = 10;  
-  console.log(a _ b); //50
+  console.log(a\*b); //50
 
-Example 2:  
-const starNum = 5;  
-const row = 2 \* starNum;  
-console.log(row); //10
+  Example 2:  
+  const starNum = 5;  
+  const row = 2 \* starNum;  
+  console.log(row); //10
 
-- Division(/)  
+- **DIVISION**(/)  
   Example 1:  
-  const x = 20;
+  const x = 20;  
   console.log(x / 10); //2
 
-Example 2:  
-const y = 100;  
-console.log(y / 2); //50
+  Example 2:  
+  const y = 100;  
+  console.log(y / 2); //50
 
-- Modulus(%)
+- **MODULUS**(%)  
+   Example 1:  
+   const total = 50;  
+   console.log(total % 2); //0
+
+  Example 2:  
+  const bill = 12;  
+  console.log(bill % 5); //2
+
+- **EXPONENTIAL**(\*\*)  
   Example 1:  
-  const total = 50;  
-  console.log(total % 2); //0
+  const tip = 5;  
+  console.log(tip\*\*2); //25
 
-Example 2:  
-const bill = 12;  
-console.log(bill % 5); //2
+  Example 2:  
+  const totalRow = 10;  
+  console.log(totalRow\*\*3); //1000
 
-- Exponential(**)  
+- **INCREMENT**(++)  
   Example 1:  
-  const tip = 5;
-  console.log(tip**2); //25
-
-Example 2:  
-const totalRow = 10;
-console.log(totalRow\*\*3); //1000
-
-- Increment(++)
-  Example 1:  
-  const n = 3
+  const n = 3  
   console.log(n++); //4
 
-Example 2:  
-const myBag = 10  
-console.log(myBag++); //11
+  Example 2:  
+  const myBag = 10  
+  console.log(myBag++); //11
 
-- Decrement(--)
-  Example 1  
-   const myShoes = 20;
+- **DECREMENT**(--)  
+  Example 1:  
+  const myShoes = 20;  
   console.log(myShoes--); //19
 
-Example 2:
-const num = 14;  
-console.log(num--); //13
+  Example 2:
+  const num = 14;  
+  console.log(num--); //13
 
 2. **Assignment operators**
 
