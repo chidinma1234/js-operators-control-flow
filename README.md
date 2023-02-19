@@ -79,8 +79,7 @@ console.log(birthYear); //1996
   Example 1:  
   const a = 5;  
   const b = 10;  
-  console.log(a _ b); //50  
-
+  console.log(a _ b); //50
 
 Example 2:  
 const starNum = 5;  
@@ -92,7 +91,7 @@ console.log(row); //10
   const x = 20;
   console.log(x / 10); //2
 
-Example 2:
+Example 2:  
 const y = 100;  
 console.log(y / 2); //50
 
@@ -173,7 +172,7 @@ Example 2:
 - Division Assignment  
   Example 1:  
   const myNum = 50  
-   console.log(myNum /= 2); //25
+  console.log(myNum /= 2); //25
 
 Example 2:  
  const a = 10  
