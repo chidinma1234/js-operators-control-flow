@@ -48,6 +48,9 @@ The symbols for javascript operators are:
 - | (Bitwise OR)
 - ^ (Bitwise XOR)
 - ~ (Bitwise NOT)
+- > >
+- < <
+- < < <
 
 ## Question 2
 
